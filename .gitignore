@@ -1,0 +1,10 @@
+# Compiled JavaScript files
+dist/
+
+# Node.js dependency directory
+node_modules/
+
+# custom
+.directory
+*.bak
+**/ses.vim

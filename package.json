@@ -1,0 +1,28 @@
+{
+	"name": "cislib",
+	"version": "0.0.1",
+	"description": "Campus Information System Library",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"/dist"
+	],
+	"scripts": {
+		"compile": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"engines": {
+		"node": "16"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^5.41.0",
+		"@typescript-eslint/parser": "^5.41.0",
+		"eslint": "^8.26.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"prettier": "^2.7.1",
+		"typescript": "^4.8.4"
+	},
+	"author": "Gilbert Consellado",
+	"license": "ISC"
+}
